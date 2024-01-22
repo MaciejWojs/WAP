@@ -396,3 +396,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+#Recznie dodane 
+ASK/*
+Eksperyment/*
+Sprawdzian1/*
+Nauka/*
+skrypt.bat
+Test.txt
