@@ -1,3 +1,0 @@
-﻿  Lab12_4.cpp
-C:\Users\Maciej\source\repos\Lab12\Lab12_4\Lab12_4.cpp(88,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  Lab12_4.vcxproj -> C:\Users\Maciej\source\repos\Lab12\x64\Debug\Lab12_4.exe

@@ -1,4 +1,0 @@
-﻿  Lab7_2.cpp
-C:\Users\Maciej\source\repos\Lab7\Lab7_2\Lab7_2.cpp(86,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Maciej\source\repos\Lab7\Lab7_2\Lab7_2.cpp(92,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-  Lab7_2.vcxproj -> C:\Users\Maciej\source\repos\Lab7\x64\Debug\Lab7_2.exe

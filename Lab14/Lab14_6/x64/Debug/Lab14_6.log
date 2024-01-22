@@ -1,4 +1,0 @@
-﻿  Lab14_6.cpp
-C:\Users\Maciej\source\repos\Lab14\Lab14_6\Lab14_6.cpp(30,8): warning C4101: "temp": lokalna zmienna, do której nie istnieje odwołanie
-C:\Users\Maciej\source\repos\Lab14\Lab14_6\Lab14_6.cpp(42,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  Lab14_6.vcxproj -> C:\Users\Maciej\source\repos\Lab14\x64\Debug\Lab14_6.exe

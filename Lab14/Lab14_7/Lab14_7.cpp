@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <ctime>
-const int rozmiarTablicy = 10;
+const int rozmiarTablicy = 1000;
 
 void sort(int *tab, const int rozmiar) {
 	for (int i = 0; i < rozmiar - 1; i++) {
@@ -23,7 +23,7 @@ int main() {
 	int *wskaznik = tab;
 
 	for (int i = 0; i < rozmiarTablicy; i++) {
-		*wskaznik = rand() % 100;
+		*wskaznik = rand() % rozmiarTablicy;
 		wskaznik++;
 	}
 
