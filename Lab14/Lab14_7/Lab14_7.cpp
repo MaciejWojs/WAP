@@ -2,7 +2,23 @@
 
 #include <iostream>
 #include <ctime>
-const int rozmiarTablicy = 1000;
+#include <string>
+using string = std::string;
+
+int pobierzDane(string wiadomosc) {
+	int dane;
+	do {
+		std::cout << wiadomosc;
+		std::cin >> dane;
+		if (!std::cin.fail()) {
+			break;
+		}
+		std::cout << "Podano zle dane!\n";
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max());
+	} while (true);
+	return dane;
+}
 
 void sort(int *tab, const int rozmiar) {
 	for (int i = 0; i < rozmiar - 1; i++) {
@@ -19,7 +35,10 @@ void sort(int *tab, const int rozmiar) {
 
 int main() {
 	srand(time(NULL));
-	int tab[rozmiarTablicy] = {};
+
+	int rozmiarTablicy = pobierzDane("Podaj rozmiar tablicy: ");
+
+	int *tab = new int[rozmiarTablicy];
 	int *wskaznik = tab;
 
 	for (int i = 0; i < rozmiarTablicy; i++) {
