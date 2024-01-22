@@ -1,5 +1,5 @@
 ﻿/*
-	Napisz  program  sprawdzający,  czy  dana  liczba  naturalna  jest  elementem  ciągu fibonacciego.
+	Napisz  program  sprawdzający,  czy  dana  liczba  naturalna  jest  elementem  ciągu Fibonacciego.
 	Program powinien wczytywać liczbę ze standardowego wejścia i drukować na standardowe wyjście odpowiedni komunikat.
 */
 #include <iostream>

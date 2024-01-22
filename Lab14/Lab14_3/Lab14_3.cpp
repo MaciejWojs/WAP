@@ -23,6 +23,6 @@ int pobierzDane(string wiadomosc) {
 
 int main() {
 	int rok = pobierzDane("Podaj rok do sprawdzenia: ");
-	if (rok % 4 == 0) std::cout << "Podany rok jest przetepny";
+	if (rok % 4 == 0 && (rok % 100 != 0 || rok % 400 == 0)) std::cout << "Podany rok jest przetepny";
 	else std::cout << "Podany rok jest nie  przetepny";
 }
